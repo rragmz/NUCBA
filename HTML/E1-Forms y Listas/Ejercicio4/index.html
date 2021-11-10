@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 4</title>
+</head>
+<body>
+    <h1>Formulario de registro</h1>
+    <form style="line-height: 30px;">
+        <!-- Nombre -->
+        <label for="nombre">Nombre: </label>
+        <input type="text" id="nombre">
+        <br>
+        <!-- Apellidos -->
+        <label for="apelidos">Apellidos: </label>
+        <input type="text" id="apellidos">
+        <br>
+        <!-- Sexo -->
+        <label for="sexo">Sexo: </label>
+        <input type="radio" name="sexo" value="hombre" id="hombre">
+        <label for="hombre">hombre</label>
+        <input type="radio" name="sexo" value="mujer" id="mujer">
+        <label for="mujer">mujer</label>
+        <br>
+        <!-- Correo -->
+        <label for="mail">Correo: </label>
+        <input type="email" name="mail" id="mail">
+        <br>
+        <!-- Población -->
+        <label>Población: </label>
+        <select>
+            <option>Alicante</option>
+            <option>Madrid</option>
+            <option>Barcelona</option>
+        </select>
+        <br>
+        <!-- Descripción -->
+        <label for="descripcion">Descripción: </label>
+        <textarea name="descripcion" cols="50" rows="6"></textarea>
+        <br>
+        <!-- Checkbox info-->
+        <input type="checkbox" name="informacion" id="informacion">
+        <label for="informacion">Deseo recibir información sobre novedades y ofertas</label>
+        <br>
+        <!-- Checkbox t&c-->
+        <input type="checkbox" name="tyc" id="tyc">
+        <label for="tyc">Declaro haber leído y aceptar las condiciones generales del programa y la normativa sobre protección de datos</label>
+        <br>
+        <!-- Botón enviar -->
+        <input type="button" name="enviar" id="enviar" value="Enviar">
+    </form>
+</body>
+</html>

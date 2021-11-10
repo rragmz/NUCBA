@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+    </head>
+    <body>
+        <header>NUCBA</header>
+        <h1>DIV</h1>
+        <p>Un div es como una cajita, me permite hacer divisiones entre elementos de HTML o agruparlos para que reacciones de determinada manera</p>
+        <p>El SPAN nos sirve <span>para</span> poder dar estilos o ahcer algo en específico en texto</p>
+        <div></div>
+        <p>Un formulario permite recibir un conjunto de datos que son proporcionados por los usuarios que visitan nuestro sitio web. Por lo general, acá irán labels e inputs</p>
+        <h2>Atributos del form</h2>
+        <dl>
+            <dt>Action</dt>
+            <dd>Le especifica al navegador donde debe enviar los datos del formulario, es decir, ruta del servidor que los manejará/recibirá</dd>
+        </dl>
+        <dl>
+            <dt>Method Get y post</dt>
+            <dd>Method: nos permite indicarle al navegador el mètodo con el que será enviado el formuladio GET o POST</dd>
+            <p>!!! La principal diferencia entre utilizar el método GET y el método POST radica en la forma en que estos datos del formulario se envían al pulsar el botón de enviar</p>
+        </dl>
+        <form>
+            <h2>Por favor, complete los campos</h2>
+            <!-- El for va asociado con el id -->
+            <div>
+                <label for="nombre">Nombre</label>
+                <input type="text" id="nombre">
+            </div>
+
+            <div>
+                <label for="superheroe">Súper Héroe Favorito</label>
+                <select id="superheroe">
+                    <option>Batman</option>
+                    <option>Superman</option>
+                    <option>La mujer maravilla</option>
+                    <option>Gatubela</option>
+                    <option>Deadpool</option>
+                </select>
+            </div>
+
+            <!-- Para que solo permita que elijamos uno hay que ponerles el mismo NAME a cada input=radio
+            El atributo checked nos permite que uno de los dos esté seleccionado por defecto-->
+            <div>
+                <label for="HP">¿Te gusta Harry Potter?</label>
+                <input type="radio" name="HP" id="si" checked>
+                <label for="si">Sí</label>
+                <input type="radio" name="HP" id="no">
+                <label for="no">No</label>
+            </div>
+
+            <div>
+                <label for="comentario">Escribí cómo te sentís: </label>
+                <br>
+                <textarea name="comentario" id="comentario" cols="30" rows="10"></textarea>
+            </div>
+            <div>
+                <input type="submit" value="Enviar">
+                <!-- <input type="submit" value="Enviar"> -->
+                <!-- <button>Enviar</button> -->
+            </div>
+        </form>
+    </body>
+</html>
