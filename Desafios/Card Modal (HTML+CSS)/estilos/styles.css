@@ -1,0 +1,148 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+img{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    border: 3px #4868BD solid;
+    margin: 10px 0px 20px 30px;
+}
+body{
+    background-color: #ebebeb;
+    font-family: 'Red Hat Display', sans-serif;
+}
+
+.contenedor{
+    background-color: #ffffff;
+    margin: 5% 30% 10% 30%;
+    height: 600px;
+    border-radius: 15px;
+}
+
+.contenedor h1{
+    color: white;
+    background-color: #203774;
+    padding: 20px;
+    border-radius: 15px 15px 0px 0px;
+    font-size: 24px;
+    font-weight: lighter;
+}
+
+.contenedor .fecha{
+    padding: 20px;
+    text-align: center;
+    justify-content: center;
+    line-height: 1.6;
+}
+.contenedor .fecha h2{
+    font-weight: bold;
+}
+.contenedor .ficha{
+    background-color: #203774;
+    color: white;
+    margin: 15px 50px 30px 50px;
+    border-radius: 20px;
+}
+
+.contenedor .ficha .horario{
+    display: flex;
+    justify-content: space-between;
+}
+.contenedor .ficha .horario article{
+    padding: 10px;
+    margin: 10px 15px 0px 15px;
+    line-height: 1.6;
+}
+.contenedor .ficha .horario article h3{
+    font-size: 20px;
+}
+.contenedor .ficha .horario button{
+    background-color: white;
+    color: #203774;
+    margin: 20px 50px 10px 0px;
+    height: 40px;
+    width: 120px;
+    border-radius: 10px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 16px;
+    box-shadow: none;
+}
+
+.contenedor .ficha .profesional{
+    display: flex;
+}
+.contenedor .ficha .profesional p{
+    text-align: center;
+    margin: 25px 10px;
+}
+/*
+h1{
+    /*margin-top: 30px;
+    margin: 30px 0px 15px 0px;
+    font-weight: 800;
+    color: hsl(223, 47%, 23%);
+}
+p{
+    margin-right: 50px;
+    margin-left: 50px;
+    color:hsl(224, 23%, 55%);
+    font-size: 16px;
+    line-height: 1.6;
+}
+.ficha .plan{
+    margin: 20px auto;
+    padding: 10px;
+    width: 90%;
+    border-radius: 10px;
+    image-orientation: left;
+    background-color: hsl(225, 100%, 98%);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.ficha .plan article{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.change{
+    border: none;
+    padding: 5px 10px;
+    border-radius: 10px;
+    background-color: transparent;
+    color: hsl(245, 75%, 52%);
+    text-decoration: underline;
+    font-weight: bold;
+    font-size: 16px;
+    cursor: pointer;
+}
+.change:hover{
+    opacity: 0.8;
+}
+.pago{
+    margin: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 12px;
+    width: 300px;
+    background-color: hsl(245, 75%, 52%);
+    border-radius: 10px 10px 10px 10px;
+    border: 10px;
+    box-shadow: 0 10px 20px 1px hsl(224, 74%, 88%)
+}
+.pago a{
+    text-align: center;
+    color: white;
+    text-decoration: none;
+    font-weight: 550;
+}
+.cancel a{
+    text-decoration: none;
+    font-weight: 550;
+    color: hsl(224, 23%, 55%);
+}
+*/
