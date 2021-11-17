@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(236, 236, 236);
+    font-family: Arial, Helvetica, sans-serif;
+}
+img{
+    margin: 0px 20px 20px 20px;
+}
+.container .ficha{
+    height: 370px;
+    width: 410px;
+    position: relative;
+    background-color: white;
+    padding: 10px;
+    margin: 35px;
+    border-radius: 15px;
+    text-align: center;
+    top: 50%;
+    left: 35%;
+    bottom: 50%;
+    font-weight: 600;
+    line-height: 1.6;
+}
+
+.container .ficha .x{
+    text-align: right;
+    color: rgb(184, 184, 184);
+    /*padding: px;*/
+    margin: 20px 20px 0px 0px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 20px;
+}
+
+.container .f1 p{
+    margin: 0px 40px 0px 40px;
+}
+.btn{
+    background: none;
+    border: 0;
+    cursor: pointer;
+    height: 50px;
+    width: 200px;
+    color: white;
+    border-radius: 5px;
+}
+
+.btnf1{
+    background-color: rgb(237, 103, 85);
+    box-shadow: 0px 5px 6px 4px rgba(255, 210, 204, 0.7);
+    margin: 15px 0px 0px 0px;
+}
+.btnf2{
+    background-color: rgb(44, 62, 80);
+    box-shadow: 0px 5px 6px 4px rgba(44, 62, 80, 0.2);
+    margin: 20px 0px 20px 0px;
+}
+.f2 p{
+    margin: 0px 60px 20px 60px;
+}
