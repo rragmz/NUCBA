@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap');
+
 *{
     margin: 0;
     padding: 0;
@@ -31,7 +33,7 @@ img{
     color: rgb(184, 184, 184);
     /*padding: px;*/
     margin: 20px 20px 0px 0px;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family: 'Red Hat Display', sans-serif;
     font-size: 20px;
 }
 
