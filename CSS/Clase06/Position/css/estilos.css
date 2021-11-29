@@ -1,0 +1,52 @@
+.cuadrado{
+    height: 200px;
+    width: 200px;
+    display: inline-block;
+}
+
+/*Por default, los elementos tienen una position static, no le puedo indicar cuánto quiero que esté de ninguno de sus lados*/
+.c-1{
+    background-color: blue;
+}
+
+/* Relative: es relativo al elemento */
+.c-2{
+    background-color: green;
+    position: relative;
+    top: 200px;
+    left: 200px;
+}
+
+/*Absolute: Se le dice dónde uno quiere que esté y se pone ahí, sin tener en cuenta la existencia de otros elementos en esa posición*/
+.c-3{
+    background-color: yellow;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+
+/*Fixed: Si tengo un scroll el fixed me va a seguir -> es con respecto al body*/
+.c-4{
+    background-color: pink;
+    position: fixed;
+    top: 30px;
+    left: 30px;
+}
+
+/*Sticky: es con respecto al padre -> en este caso el div 5*/
+.c-5{
+    background-color: violet;
+    width: 100%;
+    height: 1000px;
+    overflow-y: auto;
+}
+.c-6{
+    background-color: red;
+    height: 50px;
+    position: sticky;
+}
+.c-7{
+    background-color: orange;
+    height: 100px;
+    position: sticky;
+}

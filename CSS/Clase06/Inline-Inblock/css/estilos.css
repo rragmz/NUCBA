@@ -1,0 +1,14 @@
+p{
+    background-color: red;
+    height: 200px;
+}
+h1{
+    display: inline;
+    background-color: blue;
+    height: 1000px;
+}
+h2{
+    display: inline;
+    background-color: green;
+    height: 1000px;
+}

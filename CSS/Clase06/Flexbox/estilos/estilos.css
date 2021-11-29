@@ -1,0 +1,40 @@
+.contenedor{
+    width: 100%;
+    height: 200%;
+    background-color: violet;
+    display: flex;
+    /*
+    /*Centrarlo de manera horizontal
+    justify-content: center;
+    /*Centrar de manera vertical
+    align-items: center;
+    /*Dejar espacio entre los elementos
+    justify-content: space-between;
+    */
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.cuadrado{
+    height: 200px;
+    width: 200px;
+    
+}
+.c-1{
+    background-color: black;
+}
+.c-2{
+    background-color: red;
+}
+.c-3{
+    background-color: yellow;
+}
+.c-4{
+    background-color: green;
+}
+.c-5{
+    background-color: pink;
+}
+.c-6{
+    background-color: orange;
+}
