@@ -17,16 +17,19 @@ body{
 }
 /*ESTO ES SOLO EL CUADRO DE LOGUEO*/
 .recuadro-login{
-    margin-top: 110px;
     width: 50%;
-    height: 350px;
+    height: 60%;
     display: flex;
     background-color: #FF0054;
     border-radius: 20px;
+    box-shadow: 3px 5px 10px rgb(54, 54, 54);
 }
 .container-form{
+    /*Sí o sí NO olvidar dar height y width a todos los elementos que funcionen como padre de otro elemento*/
     height: 100%;
-    width: 40%;
+    /*Ocupá el 40 del ancho de tu elemento contenedor, recuadro-login*/
+    width: 50%;
+    /*Lo hacemos flexbox así lo podemos centrar*/
     display: flex;
     justify-content: center;
     align-items: center;
@@ -36,7 +39,6 @@ form{
     display: flex;
     flex-direction: column;
     align-items: center;
-    /**/
     flex-wrap: wrap;
 }
 .container-inputs{
@@ -51,18 +53,30 @@ label{
     margin-bottom: 5px;
 }
 input{
-    width: 70%;
+    width: 80%;
     height: 30px;
     border-radius: 20px;
     border-style: none;
     padding: 0 20px;
 }
 button{
+    text-decoration: none;
+    font-family: 'Quicksand';
     margin-top: 20px;
     background-color: #390099;
     color: white;
     border: none;
     height: 35px;
-    width: 230px;
+    width: 80%;
+    border-radius: 20px;
+}
+button:hover{
+    background-color: #501bac;
+    cursor: pointer;
+}
+.container-imagen{
+    width: 50%;
+    background-image: url(https://cdn141.picsart.com/309256231011211.png?type=webp&to=min&r=640);
+    background-size: cover;
     border-radius: 20px;
 }
