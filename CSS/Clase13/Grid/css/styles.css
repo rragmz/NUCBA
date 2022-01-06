@@ -1,0 +1,52 @@
+.grid{
+    display: grid;
+    /*grid-template-columns: 50px 300px;
+    grid-template-rows: 200px 75px;*/
+
+    /*Fracciones restantes*/
+   /* grid-template-columns: 1fr 1fr;
+    grid-template-rows: 2fr 1fr;*/
+    grid-template-columns:  100px repeat(2,50px) 200px;
+    grid-template-rows: repeat(2, 50px 100px);
+}
+
+.a{
+    background-color: yellow;
+}
+.b{
+    background-color: orange;
+}
+.c{
+    background-color: pink;
+}
+.d{
+    background-color: plum;
+}
+
+.container-grid-nombrado{
+    display: grid;
+    grid-template-columns: [x0] 1fr [x1] 1fr [x2] 1fr [x3];
+    grid-template-rows: [y0] 1fr [y1] 1fr [y2] 1fr [y3];
+}
+
+.header{
+    background-color: darkorchid;
+    grid-column: x0 / x3;
+}
+
+.sidebar{
+    background-color: darksalmon;
+    grid-row: y1 / y2;
+}
+
+.content{
+    background-color: deeppink;
+    grid-column: x1 / x3;
+    grid-row: y1 / y3;
+}
+
+.footer{
+    background-color:rgb(84, 209, 84);
+    grid-column: x0 / x3;
+    grid-row: y2;
+}

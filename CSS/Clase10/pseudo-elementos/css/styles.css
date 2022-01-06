@@ -1,0 +1,39 @@
+.texto::first-line{
+    background-color: aquamarine;
+}
+
+.texto::first-letter{
+    font-size: 3rem;
+    color: blueviolet;
+}
+
+h2::after{
+    content: ' uwu';
+    color: chartreuse;
+    font-size: 3rem;
+}
+
+h2::before{
+    content: 'HI!';
+    color:cornflowerblue;
+    font-size: 3rem;
+}
+
+span{
+    text-decoration: underline;
+    position: relative;
+    cursor: pointer;
+}
+
+span:hover::after{
+    content: ' Este es mi tooltip';
+    position: absolute;
+    left: 0;
+    top: 24px;
+    background-color: rgb(255, 252, 240);
+    border: 1px black solid;
+    padding: 12px;
+    font-size: 14px;
+    z-index: 1;
+    border-radius: 10px;
+}

@@ -1,0 +1,28 @@
+h2:first-child{
+    color: blue;
+}
+
+h3:last-child{
+    color: rosybrown;
+}
+
+/*IMPARES*/
+h4:nth-child(odd){
+    background-color: salmon;
+    color: white;
+}
+/*PARES*/
+h4:nth-child(even){
+    background-color: rgb(130, 141, 238);
+    color: wheat;
+}
+
+/*Eligiendo un ítem específico*/
+h5:nth-child(5){
+    background-color: black;
+    color: white;
+}
+
+input:focus{
+    background-color: blueviolet;
+}
